@@ -1,0 +1,79 @@
+{
+    "name": "Frost-Haven Java_script vr",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0",
+        "arcade-platformer": "github:d4ngerkitty/arcade-platformer#main",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.0",
+        "TilemapPath": "github:UnsignedArduino/TilemapPath#27ff80b905e9a311d3e36aecbf38fd1fd23af8ca",
+        "Mini3x3 by Luke (font)": "pub:54322-14091-86939-06902",
+        "MediumBlock 5 by Luke (font)": "pub:41529-42471-07604-32441",
+        "RegularBlock 4 by Luke (font)": "pub:53643-88639-48823-13052",
+        "RED LINE 6 by Luke (font)": "pub:05985-63882-95475-60702",
+        "Stats": "github:UnsignedArduino/Stats#758e35856bd5565e5d0e25c95cccfac79b7fc168",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.5.0",
+        "browser-events": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "arcade-sprite-events": "github:riknoll/arcade-sprite-events#dc93eec8412053ebbd2b8f01cf5b6ae285d28900",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "Player_funtions.ts",
+        "Invantory.ts",
+        "items_and_item_intractions.ts",
+        "handle_levels.ts",
+        "browerEvents_andbuttons.ts",
+        "bosses.ts",
+        "enemy.ts",
+        "overlaps.ts",
+        "handle_npcs.ts",
+        "savedata_.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.0.63",
+        "tag": "v2.0.63",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/5f6dbe1863a184bb2cde85fd93133e94e9719e03",
+        "target": "4.1.27",
+        "pxt": "11.3.68",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "palette": [
+        "#000000",
+        "#DDF8D0",
+        "#A0F5C6",
+        "#7FE3DC",
+        "#62AADD",
+        "#5463D9",
+        "#5429C2",
+        "#3A1E7E",
+        "#1F123A",
+        "#000000",
+        "#8E2EC4",
+        "#A4839F",
+        "#5C406c",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
